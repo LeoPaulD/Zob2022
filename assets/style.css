@@ -46,7 +46,27 @@ body {
     /*Set to match the Tailwind colour you want the active one to be */
   }
 
-  img {
-    object-fit: cover;
-    max-width: 200px;
-  }
+img {
+  object-fit: cover;
+  max-width: 200px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.facts li {
+  margin: 0.8em 0;
+} 
+
+.facts li > span:first-of-type {
+  font-weight: bold;
+}

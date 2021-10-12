@@ -10,7 +10,7 @@ facts:
     date:
     type:
     description: >
-      Après plusieurs provocations à la télévision, il est finalement condamné.
+      Après plusieurs provocations à la télévision, il est finalement condamné. 
     source: https://www.lemonde.fr/societe/article/2020/09/25/eric-zemmour-condamne-a-10-000-euros-d-amende-pour-injure-et-provocation-a-la-haine_6053635_3224.html
 ---
 
