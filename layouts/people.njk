@@ -15,9 +15,23 @@
 
             <h1>{{ title }}</h1>
 
-            <img src='{{image}}' alt="">
+            <img src="{{ image }}" alt="">
 
-            
+            <h2>Affaires</h2>
+
+            <ul>
+                {% for fact in facts %}
+                <li>
+                    <span>
+                        <a href="{{ fact.source }}">{{ fact.title }}</a>
+                    </span>
+
+                    <span>
+                        {{ fact.description }}
+                    </span>
+                </li>
+                {% endfor %}
+            </ul>
     
             {{ content | safe }}
     
