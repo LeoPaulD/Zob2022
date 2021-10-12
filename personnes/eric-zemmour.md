@@ -3,8 +3,8 @@ tags: personnes
 layout: people.njk
 
 title: Eric Zemmour
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Paris_-_Salon_du_livre_2012_-_Eric_Zemmour_-_001.jpg/1200px-Paris_-_Salon_du_livre_2012_-_Eric_Zemmour_-_001.jpg
-parti:
+image: https://i.pravatar.cc/300?img=65
+parti: Pas de parti
 facts:
   - title: Injure et provocation à la haine
     date:
