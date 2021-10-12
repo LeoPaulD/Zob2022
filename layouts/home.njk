@@ -30,14 +30,42 @@ description: >
 
             <h2>Personnes</h2>
 
-            <ul class="page-list">
+             <div class="font-sans text-black min-h-screen bg-white flex items-center justify-center">
+              <div class="border rounded overflow-hidden flex">
+                <input type="text" class="px-4 py-2" placeholder="Rechercher un...">
+                <button class="flex items-center justify-center px-4 border-l">
+                  <svg class="h-4 w-4 text-grey-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+                </button>
+              </div>
+            
+
+            <ul class="page-list grid gap-4 grid-cols-2">
                 {% for post in collections.personnes %}
-                    {% if post.data.published !== false %}
-                    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+                {% if post.data.published !== false %}
+                  <a href="{{ post.url }}" class=" ">
+                      
+                      
+                  
+                    <figure class="bg-gray-100 rounded-xl p-8">
+                      <img class="w-32 h-32 rounded-full mx-auto" src="{{ post.data.image }}" alt="" width="384" height="512">
+                      <div class="pt-6 space-y-4 text-center" >
+                        
+                       
+                        <figcaption class="font-medium">
+                          <div class="text-cyan-600">
+                            {{ post.data.title }}
+                          </div>
+                          <div class="text-gray-500">
+                            {{ post.data.parti}}
+                          </div>
+                        </figcaption>
+                      </div>
+                    </figure>
+                    </a>
                     {% endif %}
                 {% endfor %}
             </ul>
-    
+          </div>
         </main>
 
         {% include "footer.njk" %}
