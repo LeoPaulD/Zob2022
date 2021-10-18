@@ -4,13 +4,13 @@ tags: personnes
 layout: people.njk
 image: /assets/img/Darmanin.png
 parti: LR
+video : vHSrf2uhpzc
 facts:
-  - title: Viol
+  - title: Abus de pouvoir pour avoir des faveurs sexuelles
     description: >
-      Lorem ipsum…
-      lorem ipsum…
-      lorem ipsum
-    source: https://www.lemonde.fr/societe/article/2020/09/25/eric-zemmour-condamne-a-10-000-euros-d-amende-pour-injure-et-provocation-a-la-haine_6053635_3224.html
+      « Il a abusé de moi mais il ne m'a pas forcée à avoir des relations sexuelles avec lui. […] 
+      Je me sentais obligée de le faire pour avoir un logement et un travail. »
+    source: https://www.leparisien.fr/politique/affaire-darmanin-la-plaignante-raconte-les-multiples-echanges-avec-l-elu-25-02-2018-7578882.php
 ---
 
 
