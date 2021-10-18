@@ -2,7 +2,7 @@
 title: Éric Dupond-Moretti
 tags: personnes
 layout: people.njk
-image: https://i.pravatar.cc/300?img=63
+image: /assets/img/Dupont-Moretti.png
 parti: Pas de parti, proche LREM
 facts:
   - title: Fraude à l'impôt

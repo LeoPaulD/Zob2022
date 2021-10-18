@@ -1,8 +1,8 @@
 ---
-title: Gérard Darmanin
+title: Gérald Darmanin
 tags: personnes
 layout: people.njk
-image: https://i.pravatar.cc/300?img=60
+image: /assets/img/Darmanin.png
 parti: LR
 facts:
   - title: Viol
