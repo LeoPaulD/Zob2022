@@ -70,7 +70,7 @@ blockquote {
 .liens:hover {
   
   transform: scale(1.01) !important; 
-  -ms-transform: scale(1.01); /* IE 9 */
+  -ms-transform: scale(1.01); 
   -webkit-transform: scale(1.01);
 
 }
