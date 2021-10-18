@@ -63,6 +63,28 @@ h1, h2 {
   font-weight: bold;
 }
 
+blockquote {
+  position: relative;
+}
+
+blockquote::after {
+  content: '❞';
+  font-weight: bold;
+  font-size: 1.6em;
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+}
+
+blockquote::before {
+  content: '❝';
+  font-weight: bold;
+  font-size: 1.6em;
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+
 .facts li {
   margin: 0.8em 0;
 } 
