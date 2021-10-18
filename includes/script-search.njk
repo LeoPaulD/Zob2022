@@ -1,0 +1,38 @@
+<script>{% include "fuse.js" %}</script>
+
+    <script>
+      const searchInput = document.getElementById('search-input');
+      let resultList = [];
+
+      searchInput.value = '';
+
+      const elts = document.querySelectorAll('[data-people]');
+
+      const searchData = Array.from(elts)
+        .map((elt) => {
+          return {
+            elt: elt,
+            title: elt.dataset.people
+          }
+        });
+
+      const fuse = new Fuse(searchData, {
+        includeScore: false,
+        keys: ['title'] // search field from nodes metas
+      });
+
+      searchInput.addEventListener('input', () => {
+        resultList = fuse.search(searchInput.value);
+
+        if (resultList.length === 0) {
+          elts.forEach(elt => elt.style.display = null);
+          return;
+        }
+
+        elts.forEach(elt => elt.style.display = 'none');
+
+        for (const result of resultList) {
+          result.item.elt.style.display =  null;
+        }
+      })
+    </script>
