@@ -3,7 +3,7 @@ tags: personnes
 layout: people.njk
 
 title: Eric Zemmour
-image: /assets/img/Zemmour.png
+image: /assets/img/Zemmour.jpg
 parti: Pas de parti
 facts:
   - title: Injure et provocation à la haine

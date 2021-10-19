@@ -2,7 +2,7 @@
 title: Éric Dupond-Moretti
 tags: personnes
 layout: people.njk
-image: /assets/img/Dupont-Moretti.png
+image: /assets/img/Dupont-Moretti.jpg
 parti: Pas de parti, proche LREM
 facts:
   - title: Fraude de 180 000 euros à l'impôt

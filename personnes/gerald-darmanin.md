@@ -2,7 +2,7 @@
 title: Gérald Darmanin
 tags: personnes
 layout: people.njk
-image: /assets/img/Darmanin.png
+image: /assets/img/Darmanin.jpg
 parti: LR
 video : vHSrf2uhpzc
 facts:
