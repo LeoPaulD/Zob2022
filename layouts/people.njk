@@ -42,6 +42,7 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/{{video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 {% endif %}
+                {%if facts %}
                 <br>
                 <h2>Affaires</h2>
 
@@ -62,6 +63,29 @@
                     </a>
                     {% endfor %}
                 </ul>
+                {% endif %}
+                {%if polemiques %}
+                <br>
+                <h2>Polémiques</h2>
+
+                <ul class="facts">
+                    {% for polemique in polemiques %}
+                    <a href="{{ polemique.source }}">
+                        <li class="shadow-md liens rounded-md px-5 py-5">
+                            <span>
+                                {{ polemique.title }}
+                            </span>
+
+                            <br />
+
+                            <span>
+                                {{ polemique.description }}
+                            </span>
+                        </li>
+                    </a>
+                    {% endfor %}
+                </ul>
+                {% endif %}
             </div>
 
 
