@@ -4,7 +4,8 @@ layout: people.njk
 
 title: Éric Zemmour
 image: /assets/img/Zemmour.jpg
-parti: Pas de parti
+parti: Reconquête!
+video : YhO_cD_iBmw
 facts:
   - title: Injure et provocation à la haine
     date:
@@ -19,6 +20,13 @@ facts:
     description: >
       Le 1er octobre 2020, le parquet de Paris ouvre une enquête pour « provocation à la haine raciale » et « injures publiques à caractère raciste » à la suite des propos d’Éric Zemmour. 
     source: https://www.lemonde.fr/societe/article/2020/09/25/eric-zemmour-condamne-a-10-000-euros-d-amende-pour-injure-et-provocation-a-la-haine_6053635_3224.html
+
+    - title: Condamné pour "contrefaçon de droits d'auteur" dans son clip d'annonce de candidature
+        date:
+        type:
+        description: >
+          Le candidat d'extrême droite et son parti sont condamnés à verser un total de 70 000 euros aux plaignants. Après l'utilisation sans autorisation d'images de films dans son clip de campagne, selon le jugement.
+        source: https://www.francetvinfo.fr/elections/presidentielle/eric-zemmour-condamne-pour-contrefacon-de-droits-d-auteur-dans-son-clip-d-annonce-de-candidature_4991810.html
 
 polemiques:
   - title: "Ces jeunes, comme le reste de l'immigration sont [des] violeurs"
@@ -74,4 +82,4 @@ polemiques:
     
 ---
 
-Toujours pas candidat pour l'éléction présidentielle de 2022, Éric Zemmour est pourtant considéré par les médias, sondages et profite d'une audience largement comparable à celle des autres canidats. Ils est même en octobre 2022 considéré comme [challenger à Emmanuel Macron au second tour](https://www.lefigaro.fr/elections/presidentielles/un-sondage-donne-pour-la-premiere-fois-eric-zemmour-qualifie-au-second-tour-20211006).
+Éric Zemmour, né le 31 août 1958 à Montreuil, est un journaliste, écrivain, essayiste, éditorialiste, chroniqueur, polémiste et homme politique français d'extrême droite. Candidat à l'élection de la présidence de la république française 2022.
