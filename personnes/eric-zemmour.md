@@ -22,11 +22,11 @@ facts:
     source: https://www.lemonde.fr/societe/article/2020/09/25/eric-zemmour-condamne-a-10-000-euros-d-amende-pour-injure-et-provocation-a-la-haine_6053635_3224.html
 
   - title: Condamné pour "contrefaçon de droits d'auteur" dans son clip d'annonce de candidature
-      date:
-      type:
-      description: >
-        Le candidat d'extrême droite et son parti sont condamnés à verser un total de 70 000 euros aux plaignants. Après l'utilisation sans autorisation d'images de films dans son clip de campagne, selon le jugement.
-      source: https://www.francetvinfo.fr/elections/presidentielle/eric-zemmour-condamne-pour-contrefacon-de-droits-d-auteur-dans-son-clip-d-annonce-de-candidature_4991810.html
+    date:
+    type:
+    description: >
+      Le candidat d'extrême droite et son parti sont condamnés à verser un total de 70 000 euros aux plaignants. Après l'utilisation sans autorisation d'images de films dans son clip de campagne, selon le jugement.
+    source: https://www.francetvinfo.fr/elections/presidentielle/eric-zemmour-condamne-pour-contrefacon-de-droits-d-auteur-dans-son-clip-d-annonce-de-candidature_4991810.html
 
 polemiques:
   - title: "Ces jeunes, comme le reste de l'immigration sont [des] violeurs"
